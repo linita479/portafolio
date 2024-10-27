@@ -1,0 +1,358 @@
+@font-face {
+    font-family: "tlt";
+    src: url(/fonts/Grandson.otf);
+}
+
+@font-face {
+    font-family: "fuentesub";
+    src: url(/fonts/Baby\ Caroline\ Serif.ttf);
+}
+
+@font-face {
+    font-family: "prrfos";
+    src: url(/fonts/Peanut\ Butter.otf);
+}
+
+
+@font-face {
+    font-family: "daily";
+    src: url(/fonts/Daily.otf);
+}
+
+
+body{
+    background-color: #FFF7D1;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 50px;
+    width: 300px;
+    height: 650px;
+    border: solid black 2px;
+    font-family:"tlt" ;
+    font-size: 30px;
+    background-color: black;
+    box-shadow: 20px 10px 40px rgba(21, 237, 237, 0.5);
+}
+
+.menu__tlt{
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px #9e12e9, 
+    0 0 20px    #9e12e9, 
+    0 0 30px   #9e12e9;
+}
+
+.menu__inicio_imgc{
+    width: 50px;
+    height: 50px;
+}
+
+
+.menu__skills_img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.menu__hobbies_imgh{
+    width: 50px;
+    height: 50px;
+}
+
+.menu__inicio{
+    color: white;
+    text-shadow: 0 0 10px #e912be, 
+    0 0 20px   #e912be, 
+    0 0 30px  #e912be;
+
+}
+
+.menu__skills{
+    color: white;
+    text-shadow: 0 0 10px #1de912, 
+    0 0 20px    #1de912, 
+    0 0 30px   #1de912;
+
+}
+
+.menu__hobbies{
+    color: white;
+    text-shadow: 0 0 10px #12d0e9, 
+    0 0 20px     #12d0e9, 
+    0 0 30px    #12d0e9;
+
+}
+
+.container{
+    display: flex;
+    
+}
+
+
+.secciones__inicio_perfil{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+
+.secciones__inicio{
+    background-image: url('/imagenes/acuarelaL.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 650px;
+    height: 250px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: 250px;
+    /* flex-direction: row; */
+
+}
+
+
+.secciones__skills{
+    background-image: url('/imagenes/coloress.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 650px;
+    height: 250px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: 200px;
+}
+
+.secciones__skills_tlt{
+    font-family: "tlt";
+    font-size: 80px;
+    position: absolute;
+    top: 40px;
+}
+
+.secciones__inicio_tlt{
+    font-family: "tlt";
+    font-size: 70px;
+    position: absolute;
+}
+
+
+.secciones__inicio_sub{
+    font-family: "fuentesub";
+    display: flex;
+    top: 150px;
+    /* margin-top: 420px; */
+    font-size: 50px;
+    position: relative;
+    color: #9e12e9;
+    /* margin-right: 50px; */
+    
+
+
+}
+
+.secciones{
+    display: flex;
+    /* flex-direction: column; */
+}
+
+
+.secciones__inicio_contenedor{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-top: 250px;
+    /* justify-content: center; */
+
+}
+
+
+.secciones__inicio_prrf{
+    position: absolute;
+    display: flex;
+    top: 500px;
+    text-align:center;
+    font-family:  "prrfos";
+    font-size: 30px;
+}
+
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    margin-right: 200px;
+    position: relative;
+    top: 400px;
+    left: 150px;
+
+
+   
+}
+
+.contenedor__skill{
+    border: solid #E90074 5px;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    position: relative;
+    margin-right: 50px;
+    border-radius: 20px;
+    justify-content: center;
+
+
+
+}
+
+.contenedor__hoby{
+
+    border: solid #8c00e9 5px;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    position: relative;
+    margin-right: 50px;
+    border-radius: 20px;
+    justify-content: center;
+
+}
+
+.hoby1{
+    color: white;
+    font-family: "daily";
+    font-size: 40px;
+    position: absolute;
+
+}
+
+.hoby2{
+    color: white;
+    font-family: "daily";
+    font-size: 40px;
+    position: absolute;
+
+}
+
+.hoby3{
+    color: white;
+    font-family: "daily";
+    font-size: 40px;
+    position: absolute;
+
+}
+
+.hoby4{
+    color: white;
+    font-family: "daily";
+    font-size: 40px;
+    position: absolute;
+
+}
+
+
+
+
+
+.Python{
+    color: white;
+    font-family: "daily";
+    font-size: 40px;
+    position: absolute;
+}
+
+.Python_img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 100px;
+}
+
+.Mysql{
+    color: white;
+    font-family: "daily";
+    font-size: 40px;
+    position: absolute;
+
+}
+
+.Mysqlimg{
+    width: 100px;
+    height: 80px;
+    position: relative;
+    top: 100px;
+}
+
+
+.Figmaimg{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 100px;
+}
+
+.Figma{
+    color: white;
+    font-family: "daily";
+    font-size: 40px;
+    position: absolute;
+
+}
+
+.gitimg{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 100px;
+
+}
+
+.git{
+    color: white;
+    font-family: "daily";
+    font-size: 40px;
+    position: absolute;  
+}
+
+.secciones__hoby{
+    background-image: url('/imagenes/acuarela\ azul.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 650px;
+    height: 250px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* top: 50px; */
+    left: 200px;
+}
+
+
+.secciones__hoby_tlt{
+    font-family: "tlt";
+    font-size: 80px;
+    position: absolute;
+    /* top: 10px; */
+}
+
+
+.flor{
+    position: absolute;
+    left: 1250px;
+    width: 250px;
+    top: 280px;
+    opacity: 0.7;
+}
+
+
