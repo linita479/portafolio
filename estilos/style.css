@@ -1,22 +1,22 @@
 @font-face {
     font-family: "tlt";
-    src: url(/fonts/Grandson.otf);
+    src: url(../fonts/Grandson.otf);
 }
 
 @font-face {
     font-family: "fuentesub";
-    src: url(/fonts/Baby\ Caroline\ Serif.ttf);
+    src: url(../fonts/Baby\ Caroline\ Serif.ttf);
 }
 
 @font-face {
     font-family: "prrfos";
-    src: url(/fonts/Peanut\ Butter.otf);
+    src: url(../fonts/Peanut\ Butter.otf);
 }
 
 
 @font-face {
     font-family: "daily";
-    src: url(/fonts/Daily.otf);
+    src: url(../fonts/Daily.otf);
 }
 
 
@@ -105,7 +105,7 @@ body{
 
 
 .secciones__inicio{
-    background-image: url('/imagenes/acuarelaL.png');
+    background-image: url('../imagenes/acuarelaL.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -121,7 +121,7 @@ body{
 
 
 .secciones__skills{
-    background-image: url('/imagenes/coloress.png');
+    background-image: url('../imagenes/coloress.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -325,7 +325,7 @@ body{
 }
 
 .secciones__hoby{
-    background-image: url('/imagenes/acuarela\ azul.png');
+    background-image: url('../imagenes/acuarela\ azul.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
